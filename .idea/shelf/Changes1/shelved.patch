@@ -1,0 +1,31 @@
+Index: style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/style.css b/style.css
+new file mode 100644
+--- /dev/null	(date 1644582223658)
++++ b/style.css	(date 1644582223658)
+@@ -0,0 +1,20 @@
++.error {
++    font-weight: bold;
++    color: #FF0000;
++}
++
++.login {
++    font-style: italic;
++}
++
++form label {  display: inline-block;  width: 150px;
++    font-weight: bold;
++}
++
++td.label {
++    font-weight: bold;
++}
++
++img.profile {
++    vertical-align: top;
++}
+\ No newline at end of file
